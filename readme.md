@@ -46,7 +46,7 @@ class B(A):
 ```
 
 Let's say you have such a decorated class and the decorator automatically adds one meta method ```unused_fields()```
-that provide you with fields - inherited ones, too! - of a class (instance) that were merely declared, and with another
+that provides you with fields - inherited ones, too! - of a class (instance) that were merely declared, and another
 meta method ```used_fields()``` that provides you with fields that have been both declared and initialized.
 
 Now, what you could do to compare two instances of such a class in a generic way, is to call both of the above meta
