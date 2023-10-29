@@ -1,6 +1,5 @@
 # Track Python Fields at Runtime and Share Methods w/o Inheritance
 
----
 While data classes are an interesting construct in Python, they might not exactly be what you want in a specific
 situation.
 
